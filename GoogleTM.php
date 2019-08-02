@@ -20,7 +20,7 @@ class GoogleTM {
     }
 
     public function add_gtm_code() {
-        if ( !isset($_COOKIE['avc_seo_toolkit_dgat']) ):
+        if ( !isset($_COOKIE['avcst_dgat']) ):
             echo PHP_EOL;
             echo "\t<!-- Google Tag Manager -->".PHP_EOL;
             echo "\t<script>".PHP_EOL;
